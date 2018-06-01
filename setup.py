@@ -16,15 +16,15 @@ except:
     CHANGES = read('CHANGES.md')
 
 setup(
-    name='pyteamcity',
+    name='pytc3',
     version=version,
     description='Use the TeamCity REST API from Python',
     long_description='%s\n\n%s' % (README, CHANGES),
-    url='https://github.com/SurveyMonkey/pyteamcity',
-    maintainer='Marc Abramowitz',
-    maintainer_email='marc@marc-abramowitz.com',
-    author='Yotam Oron',
-    author_email='yotamoron@yahoo.com',
+    url='https://github.com/ageekymonk/pytc3',
+    maintainer='ageekymonk',
+    maintainer_email='ramzthecoder@gmail.com',
+    author='ageekymonk',
+    author_email='ramzthecoder@gmail.com',
     packages=find_packages(),
     zip_safe=False,
     install_requires=[
@@ -32,7 +32,6 @@ setup(
         'python-dateutil',
         'pytz',
         'requests',
-        'six',
     ],
     extras_require={
         'tests': [
@@ -44,14 +43,7 @@ setup(
     },
     license='MIT',
     classifiers=[
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.6',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.2',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
         'Natural Language :: English',
         'Intended Audience :: Developers',
     ],
