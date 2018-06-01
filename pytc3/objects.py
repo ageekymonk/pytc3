@@ -1,7 +1,6 @@
 from .base import RESTObject
 from .manager import RESTManager
 from .mixins import CRUDMixin
-from .parameter import Parameter
 from .utils import raise_on_status
 
 
